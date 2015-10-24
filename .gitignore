@@ -1,0 +1,11 @@
+# Compiled source
+/primes
+
+# Java bytecode
+/Primes.class
+
+# Haskell interface file
+/primes.hi
+
+# Haskell object file
+/primes.o

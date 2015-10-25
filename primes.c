@@ -3,11 +3,11 @@
 
 int main (int argc, char *argv[])
 {
-    int number = atoi(argv[1]);
+    long number = strtol(argv[1], NULL, 0);
 
-    for (int candidate = 2; number > 1; candidate++) {
+    for (long candidate = 2; number > 1; candidate++) {
         for (; number % candidate == 0; number /= candidate) {
-            printf("%d\n", candidate);
+            printf("%ld\n", candidate);
         }
     }
 
